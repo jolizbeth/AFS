@@ -4,7 +4,6 @@ button {
     outline: none;
 }
 #boundary{
-    align-items: baseline;
     background-color: rgb(red, green, blue);
     border-radius: 4px;
     height: 250px;
@@ -17,6 +16,7 @@ button {
 #preferences{
     width: 190px;
     margin-bottom: 10px;
+    bottom: 10px;
 }
 
 #bookmarks{
