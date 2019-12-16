@@ -1,9 +1,7 @@
 button {
-    align-content: center;
     height: 30px;
     width: 30px;
     outline: none;
-    display: block;
 }
 #boundary{
     background-color: rgb(red, green, blue);
@@ -17,12 +15,15 @@ button {
 
 #preferences{
     width: 190px;
+    margin-bottom: 10px;
 }
 
 #bookmarks{
     width: 190px;
+    margin-bottom: 10px;
 }
 
 #log_out{
     width: 190px;
+    margin-bottom: 10px;
 }
