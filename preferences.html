@@ -10,14 +10,59 @@
       <div>
         <label for="option1">Animals</label>
         <input type="checkbox" id="Animals">
+        <script>
+          $('#checkBox').click(function(e){
+            if (e.target.checked) {
+              localStorage.checked = true;
+            } else {
+              localStorage.checked = false;
+            }
+          })
+           
+          $( document ).ready(function() {
+            
+            document.querySelector('#checkBox').checked = localStorage.checked
+            
+          });
+        </script>
       </div>
       <div>
         <label for="option2">Gaming</label>
         <input type="checkbox" id="Gaming">
+        <script>
+          $('#checkBox').click(function(e){
+            if (e.target.checked) {
+              localStorage.checked = true;
+            } else {
+              localStorage.checked = false;
+            }
+          })
+           
+          $( document ).ready(function() {
+            
+            document.querySelector('#checkBox').checked = localStorage.checked
+            
+          });
+        </script>
       </div>
       <div>
         <label for="option3">Traveling</label>
         <input type="checkbox" id="Traveling">
+        <script>
+          $('#checkBox').click(function(e){
+            if (e.target.checked) {
+              localStorage.checked = true;
+            } else {
+              localStorage.checked = false;
+            }
+          })
+           
+          $( document ).ready(function() {
+            
+            document.querySelector('#checkBox').checked = localStorage.checked
+            
+          });
+        </script>
       </div>
   </div>
   
