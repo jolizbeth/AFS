@@ -18,3 +18,11 @@ changeColor.onclick = function(element) {
         {code: 'document.body.style.backgroundColor = "' + color + '";'});
   });
 };
+
+document.querySelector('preferences').addEventListener("click", function() {
+  if (chrome.runtime.openpreferencesPage) {
+    chrome.runtime.openpreferencesPage();
+  } else {
+    window.open(chrome.runtime.getURL('preferences.html'));
+  }
+});
