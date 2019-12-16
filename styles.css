@@ -11,3 +11,16 @@ button {
     position: relative;
     width:360px;
 }
+
+
+#preferences{
+    width: fit-content;
+}
+
+#bookmarks{
+    width: fit-content;
+}
+
+#log_out{
+    width: fit-content;
+}
