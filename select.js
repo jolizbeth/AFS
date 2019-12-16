@@ -13,4 +13,3 @@ $checkboxes.on("change", function(){
 $.each(checkboxValues, function(key, value) {
   $("#" + key).prop('checked', value);
 });
-
