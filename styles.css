@@ -1,0 +1,13 @@
+button {
+    height: 30px;
+    width: 30px;
+    outline: none;
+}
+#boundary{
+    background-color: rgb(red, green, blue);
+    border-radius: 4px;
+    height: 300px;
+    padding-bottom: 60px;
+    position: relative;
+    width:360px;
+}
