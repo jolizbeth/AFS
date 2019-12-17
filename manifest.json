@@ -1,7 +1,7 @@
 {
-  "name": "Getting Started Example",
+  "name": "ADit",
   "version": "1.0",
-  "description": "Build an Extension!",
+  "description": "A browser extension for users to control their ad preference and do good for charity/nonprofits",
   "permissions": ["activeTab","declarativeContent","storage"],
   "background": {
     "scripts": ["background.js"],
@@ -10,17 +10,17 @@
   "page_action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "images/get_started16.png",
-      "32": "images/get_started32.png",
-      "48": "images/get_started48.png",
-      "128": "images/get_started128.png"
+      "16": "images/ADit_logo.png",
+      "32": "images/ADit_logo.png",
+      "48": "images/ADit_logo.png",
+      "128": "images/ADit_logo.png"
     }
   },
   "icons": {
-    "16": "images/get_started16.png",
-    "32": "images/get_started32.png",
-    "48": "images/get_started48.png",
-    "128": "images/get_started128.png"
+    "16": "images/ADit_logo.png",
+    "32": "images/ADit_logo.png",
+    "48": "images/ADit_logo.png",
+    "128": "images/ADit_logo.png"
   },
   "manifest_version": 2
 }
