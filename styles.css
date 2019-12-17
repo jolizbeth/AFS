@@ -36,6 +36,7 @@ h1{
 }
 
 #checkbox-container div{
+  margin-left: 20px;  
   margin-bottom: 5px;
 }
 
@@ -52,9 +53,7 @@ input[type=text] {
 }
 
 label{
+    margin-left: 30px;
     font-size: 24px;
 }
 
-#submitVal button{
-    font-size: 24px;
-}
