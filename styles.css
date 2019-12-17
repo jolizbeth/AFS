@@ -29,7 +29,7 @@ button {
 }
 
 h1{
-    font-size: 60px;
+    font-size: 40px;
 }
 
 #checkbox-container{
@@ -83,4 +83,8 @@ p{
 
 #choices table{
     height: 15px;
+}
+
+#save{
+    width: fit-content;
 }
