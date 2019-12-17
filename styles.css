@@ -63,7 +63,7 @@ a{
 }
 
 p{
-    margin-left: 70px;
+    margin-left: 25px;
     font-size: 20px;
 }
 
@@ -83,4 +83,13 @@ p{
 
 #choices table{
     height: 15px;
+}
+
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 5px;
 }
