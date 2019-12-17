@@ -35,7 +35,7 @@ button {
 }
 
 h1{
-    font-size: 60px;
+    font-size: 40px;
 }
 
 #checkbox-container{
@@ -91,8 +91,25 @@ p{
     height: 15px;
 }
 
-#bookm table, #bookm tr, #bookm td{
+#bookm table {
     max-width: 70%;
+}
+#bookm1 tr{
+    max-width: 70%;
+}
+#bookm2 td{
+    max-width: 70%;  
+}
+
+#save{
+    width: fit-content;
+}
+
+#bookm table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#bookm2 td{
     border: 1px solid black;
     border-collapse: collapse;
 }
