@@ -4,20 +4,24 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-   <h1><center>Preferences</center></h1>
-   <div id="checkbox-container">
-      <div>
-        <label for="option1">Animals</label>
-        <input type="checkbox" id="Animals">
-      </div>
-      <div>
-        <label for="option2">Gaming</label>
-        <input type="checkbox" id="Gaming">
-      </div>
-      <div>
-        <label for="option3">Traveling</label>
-        <input type="checkbox" id="Traveling">
-      </div>
-  </div>
+   <h1><center>Settings</center></h1>
+   <h1><center>Your Preferences</center></h1>
+  <form action="/action_page.php" method="get">
+    <div id="checkbox-container">
+        <div>
+          <label for="option1">Animals</label>
+          <input type="checkbox" id="Animals">
+        </div>
+        <div>
+          <label for="option2">Gaming</label>
+          <input type="checkbox" id="Gaming">
+        </div>
+        <div>
+          <label for="option3">Traveling</label>
+          <input type="checkbox" id="Traveling">
+        </div>
+    </div>
+  <input type="submit" value="Submit">
+  </form>
   </body>
 </html>
