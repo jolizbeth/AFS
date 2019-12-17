@@ -119,3 +119,6 @@ p{
   display: table;
   clear: both;
 }
+#submit{
+    width: fit-content;
+}
