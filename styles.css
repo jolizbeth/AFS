@@ -28,7 +28,7 @@ button {
 }
 
 h1{
-    font-size: 75px;
+    font-size: 60px;
 }
 
 #checkbox-container{
@@ -36,7 +36,7 @@ h1{
 }
 
 #checkbox-container div{
-  margin-left: 20px;  
+  margin-left: 70px;  
   margin-bottom: 5px;
 }
 
@@ -53,7 +53,41 @@ input[type=text] {
 }
 
 label{
-    margin-left: 30px;
+    margin-right: 30px;
     font-size: 24px;
 }
 
+a{
+    font-size: 20px;
+}
+
+p{
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+html { 
+  background: url(images/wall.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button1{
+    background-color: #e7e7e7; color: black;
+    width: 40px;
+}
+
+#choices table{
+    height: 15px;
+}

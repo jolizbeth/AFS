@@ -1,24 +1,99 @@
 <!DOCTYPE html>
 <html>
+  <script src="options.js"></script>
   <head>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-   <h1><center><img src="images/filter.png">Edit Preferences</center></h1>
+   <center>
+   <h1><img src="images/filter.png">Edit Preferences</h1>
+
     <div id="checkbox-container">
       <label>Your Preferences</label>
+
+      <table>
+        <tr>
         <div>
-          <input type="checkbox" id="Animals">
-          <label for="option1">Animals</label>
+          <td>
+            <input type="checkbox" id="topics">
+            <label for="option1">Animals</label>
+          </td>
+          <td>
+            <input type="checkbox" id="topics">
+            <label for="option2">Cars</label>
+          </td>
+          <td>
+            <input type="checkbox" id="topics">
+            <label for="option3">Traveling</label>
+          </td>
         </div>
-        <div>
-          <input type="checkbox" id="Gaming">
-          <label for="option2">Gaming</label>
-        </div>
-        <div>
-          <input type="checkbox" id="Traveling">
-          <label for="option3">Traveling</label>
-        </div>
-    </div>ß
+      </tr>
+      </table>
+<br>
+<br>
+<br>
+<br>
+      <div style="overflow-y: auto">
+        <h2>Recommended</h2>
+        <table id="choices">
+          <tr>
+            <th>
+              <input type="checkbox" id="topics">
+              <label for="option1">One</label>
+            </th>
+
+            <th>
+              <input type="checkbox" id="topics">
+              <label for="option1">Two</label>
+            </th>
+
+            <th>
+              <input type="checkbox" id="topics">
+              <label for="option1">Three</label>
+            </th>
+          </tr>
+
+          <tr>
+            <th>
+              <input type="checkbox" id="topics">
+              <label for="option1">Four</label>
+            </th>
+
+            <th>
+              <input type="checkbox" id="topics">
+              <label for="option1">Five</label>
+            </th>
+
+            <th>
+              <input type="checkbox" id="topics">
+              <label for="option1">Six</label>
+            </th>
+          </tr>
+
+          <tr>
+            <th>
+              <input type="checkbox" id="topics">
+              <label for="option1">Seven</label>
+            </th>
+
+            <th>
+              <input type="checkbox" id="topics">
+              <label for="option1">Eight</label>
+            </th>
+
+            <th>
+              <input type="checkbox" id="topics">
+              <label for="option1">Nine</label>
+            </th>
+          </tr>
+
+        </table>
+      </div>
+      <div id="status"></div>
+      <button class="button button1" id="save">Update</button>
+
+    </div>
+  </center>
+  </div>
   </body>
 </html>
