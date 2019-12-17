@@ -24,3 +24,18 @@ function restore_options() {
 document.addEventListener('DOMContentLoaded', restore_options);
 document.getElementById('save').addEventListener('click',
     save_options);
+
+function dropFunction() {
+  // Get the checkbox
+  var checkBox = document.getElementById("a1").value;
+  // Get the dropdown
+  var myDrop = document.getElementById("myDropdown").value;
+  
+  // If the checkbox is checked, display the output text
+  if (myDrop.style.diplay == "none" && checkBox.checked == true) {
+    myDrop.style.display = "block";
+  }
+  else {
+    myDrop.style.display = "none";
+  }
+}
