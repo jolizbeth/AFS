@@ -91,25 +91,18 @@ p{
     height: 15px;
 }
 
-#bookm table {
-    max-width: 70%;
-}
-#bookm1 tr{
-    max-width: 70%;
-}
-#bookm2 td{
-    max-width: 70%;  
-}
-
 #save{
     width: fit-content;
 }
 
-#bookm table{
+#bookm{
+    max-width: 70%;
     border: 1px solid black;
     border-collapse: collapse;
 }
+
 #bookm2 td{
+    max-width: 70%;
     border: 1px solid black;
     border-collapse: collapse;
 }
