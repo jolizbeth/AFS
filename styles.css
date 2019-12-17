@@ -6,24 +6,25 @@ button {
 #boundary{
     background-color: rgb(red, green, blue);
     border-radius: 4px;
-    height: 250px;
+    height: 200px;
     padding-bottom: 60px;
     position: relative;
     width:200px;
 }
 
 #preferences{
-    width: 190px;
+    width: 100%;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
 #bookmarks{
-    width: 190px;
+    width: 100%;
     margin-bottom: 10px;
 }
 
 #log_out{
-    width: 190px;
+    width: 100%;
     margin-bottom: 10px;
 }
 
@@ -66,14 +67,6 @@ p{
     font-size: 20px;
 }
 
-html { 
-  background: url(images/wall.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .button {
   background-color: #4CAF50;
   border: none;
@@ -91,4 +84,3 @@ html {
 #choices table{
     height: 15px;
 }
-

@@ -10,17 +10,17 @@
   "page_action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "images/ADit_logo.png",
-      "32": "images/ADit_logo.png",
-      "48": "images/ADit_logo.png",
-      "128": "images/ADit_logo.png"
+      "16": "images/ADit_logo_white.png",
+      "32": "images/ADit_logo_white.png",
+      "48": "images/ADit_logo_white.png",
+      "128": "images/ADit_logo_white.png"
     }
   },
   "icons": {
-    "16": "images/ADit_logo.png",
-    "32": "images/ADit_logo.png",
-    "48": "images/ADit_logo.png",
-    "128": "images/ADit_logo.png"
+    "16": "images/ADit_logo_white.png",
+    "32": "images/ADit_logo_white.png",
+    "48": "images/ADit_logo_white.png",
+    "128": "images/ADit_logo_white.png"
   },
   "manifest_version": 2
 }
